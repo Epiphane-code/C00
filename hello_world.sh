@@ -1,1 +1,2 @@
-echo "hello_wold"
+#ce code affiche "hello, World"
+echo "hello, wold!"
