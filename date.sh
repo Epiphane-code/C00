@@ -1,1 +1,1 @@
- $ date "+%y-%m-%d"
+ date "+%y-%m-%d"
