@@ -1,4 +1,6 @@
 #!/bin/bash 
 # ce code nous si le fichier existe ou non
-existe=[ -f hello_world.sh ]
-echo $existe
+if [ -f hello_world.sh ]; then 
+echo "existe"
+else echo "non"
+fi 
