@@ -1,2 +1,4 @@
-#code pour lister les fichiers du dossier courant 
+#!/bin/bash
+
+#code pour lister les fichiers du dossier courant
 ls
