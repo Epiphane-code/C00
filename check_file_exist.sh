@@ -2,7 +2,7 @@
 # ce code nous si le fichier existe ou non
 echo -n "Entrez le nom du fichier: "
 read nom
-if [ -f $nom.sh ]; then 
-echo "Le fichier $nom existe"
-else echo "Le fichier $nom n\'existe pas"
+if [ -f $nom ]; then 
+echo "Le fichier $nom existe."
+else echo "Le fichier $nom n'existe pas."
 fi 
