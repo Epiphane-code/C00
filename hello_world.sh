@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 #cette commande affiche hello, World !
 
