@@ -2,4 +2,4 @@
 
 #cette commande affiche hello, World !
 
-echo "Hello, world"
+yecho Hello, world
