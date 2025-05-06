@@ -1,6 +1,9 @@
 #!/bin/bash 
 # ce code nous si le fichier existe ou non
-if [ -f hello_world.sh ]; then 
-echo "Le fichier 'hello_world.sh' existe"
-else echo "Le fichier 'hello_world.sh' n\'existe pas"
+echo -n "Entrez le nom du fichier: "
+read nom
+echo "Bonjour, $nom !"
+if [ -f $nom ]; then 
+echo "Le fichier $nom existe"
+else echo "Le fichier $nom n\'existe pas"
 fi 
